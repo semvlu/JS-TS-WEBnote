@@ -35,6 +35,38 @@ nameAgeMap.Victor = 25;
 // nameAgeMap.Laurence = "Thirty"; // Error: Type 'string' not assignable to type 'number'
 
 
+// Alias
+type Manu = string;
+type Model = string;
+type Year = number;
+type Car = {
+    manufacturer: Manu,
+    model: Model,
+    year?: Year
+}
+const car1: Car = {
+    manufacturer: "Ferrari",
+    model: "Daytona SP3"
+};
+
+
+// Function
+const getNum = (): number => Math.random();
+// Spec return type if necessary: void, number, string...
+function printNum(n: number): void { console.log(n); }
+
+function func1(a: number, b?: number, factor: number = 10, ...rest: number[]) {
+    // result = (a + b + rest) * 10
+    let result: number = 0;
+    result = a + (b || 0);
+    for (let i = 0; i < rest.length; i++) {
+        result += rest[i];
+    }
+    result *= factor;
+    return result;
+}
+
+
 // Template Literal Types: custom types
 type Colour = "red" | "green" | "blue";
 type HexColour<T extends Colour> = `#${string}`;
