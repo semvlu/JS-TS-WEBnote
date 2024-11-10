@@ -1,0 +1,54 @@
+# Schema: Describe how API will work, e.g. data send, rcv
+type Schema { # CRUD
+    query: Query  # Read, fetcg
+    mutation: Mutation # CUD
+}
+
+# !: required field
+type User {
+    id: ID!
+    name: String!
+    email: String!
+}
+
+type Query {
+    user(id: ID!): User
+    allUsers: [User]!
+    search(term: String!): [SearchResult!]!
+}
+type SearchResult {
+    id: ID!
+    name: String!
+    email: String!
+}
+
+
+type Mutation {
+    createUser(input: createUserInput): User
+    updateUser(input: updateUserInput): User
+    deleteUser(input: deleteUserInput): User
+}
+input createUserInput {
+    name: String!
+    email: String!
+}
+input updateUserInput {
+    name: String
+    email: String
+}
+input deleteUserInput {
+    id: ID!
+}
+
+# -----------------
+type Book {
+    title: String!
+    author: Author
+}
+type Author {
+    name: String!
+    books: [Book]
+}
+# -----------------
+
+# Resolver
