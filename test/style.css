@@ -1,0 +1,21 @@
+._1e {
+    border: none;
+    border-radius: 12px;
+    float: left;
+}
+
+#trigAlert {
+    background-color: #eec500;
+    color:white; 
+}
+
+#trigAlert:hover {
+    background-color: red;
+    padding: 3px 5px;
+    text-transform: uppercase;
+}
+
+#clickCnt {
+    color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
