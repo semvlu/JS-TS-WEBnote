@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+service Greeter {
+    rpc sayHello(stream Req) returns (stream Resp) {} 
+    # stream if necessary
+}
+
+message Req {
+    string name = 1;
+    int32 id = 2;
+    bool alive = 3;
+}
+
+message Resp {
+    string message = 1;
+}
+
+
+// Compile & Gen: <PBfilename>_pb2.py & <PBfilename>_pb2_grpc.py
+// python -m grpc_tools.protoc -I../../protos --python_out=. --pyi_out=. --grpc_python_out=. ../../protos/helloworld.proto
+// --python_out=<PBfilename>_pb2.py --grpc_python_out=<PBfilename>_pb2_grpc.py
