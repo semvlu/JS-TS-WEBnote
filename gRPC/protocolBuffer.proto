@@ -19,3 +19,302 @@ message Resp {
 // Compile & Gen: <PBfilename>_pb2.py & <PBfilename>_pb2_grpc.py
 // python -m grpc_tools.protoc -I../../protos --python_out=. --pyi_out=. --grpc_python_out=. ../../protos/helloworld.proto
 // --python_out=<PBfilename>_pb2.py --grpc_python_out=<PBfilename>_pb2_grpc.py
+
+
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+
+ message fesuf{
+    string name = 1;
+    string id = 2;
+    string birth = 3;
+    string address = 4;
+}
+ 
