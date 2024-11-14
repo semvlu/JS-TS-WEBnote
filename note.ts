@@ -151,6 +151,19 @@ let v = new NamedVal<number>('muNum'); // Gen<type>
 v.setValue(5);
 console.log(v.toStr());
 
+// Use generics when type and #vars uncertain
+type ApiResp<Data = {status: number}> = { // default Data: status: number
+    data: Data,
+    isErr: boolean
+};
+type UserResp = ApiResp<{ name: string; age: number; }>;
+const r: UserResp = {
+    data: {
+        name: "Alex",
+        age: 30
+    },
+    isErr: false
+};
 
 // Type Util
 // Partial: all prop in an obj be opt
