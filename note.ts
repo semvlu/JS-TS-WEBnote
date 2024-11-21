@@ -276,7 +276,7 @@ const printMileage = (mileage: number | null | undefined) => {
            
 // Definitely Typed: some NPM pkg does not support type
 // Deifnitely Typed is to support the lack
-// npm install --save-dev @types/jquery
+// npm install --save-dev @types/<module>
 
 // Template Literal Types: custom types
 type Colour = "red" | "green" | "blue";
