@@ -1,3 +1,5 @@
+# !: required field
+# Int, Float, String, Boolean, ID: equiv. String
 type Book {
     id: Int!
     title: String!
