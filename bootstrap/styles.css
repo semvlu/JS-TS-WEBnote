@@ -27,8 +27,8 @@
 
 #accordionPlusMinus .accordion-button {
   flex-direction: row-reverse;
-  justify-content:
-  start; margin-left: 0;
+  justify-content: start; 
+  margin-left: 0;
   margin-right: 15px;
 }
 #accordionPlusMinus .accordion-button:not(.collapsed) {
