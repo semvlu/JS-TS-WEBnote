@@ -1,7 +1,7 @@
 # Home
 Routing
 # Timer
-useEffect
+```useEffect```
 
 useReducer: manage multi states w/ complex logic, alt. useState
 
