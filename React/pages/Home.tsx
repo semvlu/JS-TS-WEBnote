@@ -4,7 +4,7 @@ import Button from '../components/Button';
 import Form from '../components/Form';
 import Timer from '../components/Timer';
 import Outer from '../components/Nest';
-
+import useFetch from '../hooks/useFetch';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
@@ -24,6 +24,15 @@ function Home() {
     const handSelItem = (item: string) => {
       console.log(item);
     }
+
+    interface Post { 
+      userId: number;
+      id: number;
+      title: string;
+      body: string
+    }
+    const d = useFetch<any>('https://jsonplaceholder.typicode.com/posts');
+    const dispArr = d? d.map((item, index) => <p key={index}>{JSON.stringify(item)}</p>): null;
 
     return (
       <>
@@ -47,6 +56,7 @@ function Home() {
         <Timer />
         <Form/>
         <Link to="/aboutus">About Us</Link>
+        <p>{dispArr}</p>
         <Outer />
       </>
     );
