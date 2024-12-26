@@ -1,0 +1,79 @@
+.city {
+    display: flex;
+  }
+  /* 
+  > Child selector
+  The child selector selects all elements that are the children of a specified element.
+  */
+  
+  .city > div {
+    width:33%;
+    color:rgb(174, 15, 218)
+  }
+  p {
+    color:dimgray;
+    font-family: Verdana;
+  }
+  /* # before ID */
+  #London {
+    background-color:#FFF4A3;
+  }
+  #Amsterdam {
+    background-color:#FFC0C7
+  }
+  #Rome {
+    background-color:#D9EEE1;
+  }
+  a:visited {
+    color:purple;
+  }
+  a:hover {
+    color: hotpink;
+  }
+  
+  ul {
+    display: block;
+  }
+  
+  
+  .dropbtn {
+    background-color: #266087;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12pt;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: monaco;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #508284}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #508284;
+  }
