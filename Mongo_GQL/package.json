@@ -1,0 +1,26 @@
+{
+  "name": "mongo_gql",
+  "version": "1.0.0",
+  "main": "",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.10.2",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "graphql": "^16.10.0",
+    "graphql-tag": "^2.12.6",
+    "mongoose": "^8.9.2"
+  }
+}
