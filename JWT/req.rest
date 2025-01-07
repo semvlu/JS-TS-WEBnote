@@ -1,0 +1,24 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTczNTgwMzY4NSwiZXhwIjoxNzM1ODAzNjk1fQ.uccdE6aqeBqaqs8l9VT9kzeglpO2Kjvqu0dviK8gWsw
+
+### login to get access token and refresh token
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "username": "Kyle"
+}
+### use refresh token to get new access token
+POST http://localhost:4000/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTczNjI1MDY0Nn0.PxHw0qJFHYZwdzm1kPqfdeoCRGmZYlbmeEgyayH6sV0"
+}
+### logout w/ init refresh token
+DELETE http://localhost:4000/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsImlhdCI6MTczNjI1MDY0Nn0.PxHw0qJFHYZwdzm1kPqfdeoCRGmZYlbmeEgyayH6sV0"
+}
