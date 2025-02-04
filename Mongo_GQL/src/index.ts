@@ -11,7 +11,7 @@ import mongoose from 'mongoose';
 import typeDefs  from './schema/typeDefs.js';
 import resolvers from './schema/resolvers.js';
 
-const MONGODB = "mongodb+srv://sem:qazwsx123@cluster0.xapmr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGODB = "credentials";
 
 // Apollo server
 
